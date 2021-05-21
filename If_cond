@@ -1,0 +1,9 @@
+a=int(input('enter a value'))
+if a<20:
+   print('a is <20')
+   print('HI')
+   
+  Expected Output
+  10
+  a is <20
+  HI
