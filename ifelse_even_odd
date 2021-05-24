@@ -1,0 +1,16 @@
+a=int(input('enter a value'))
+b=int(input('enter b value'))
+if(a%2==0):
+   print('even number')
+else:
+   print('odd number')
+if(b%2==0):
+   print('even number')
+else:
+   print('odd number')
+   
+   Output:
+enter a value102465812
+enter b value745641579
+even number
+odd number
