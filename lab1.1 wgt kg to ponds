@@ -1,0 +1,9 @@
+weight=int(input('enter weight in kilograms'))
+print('weight converted from kilograms to pounds')
+weight=weight*2.2
+print('weight in pounds is %0.2f'%weight)
+
+Output:
+enter weight in kilograms13
+weight converted from kilograms to pounds
+weight in pounds is 28.60
