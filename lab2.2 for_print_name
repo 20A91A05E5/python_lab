@@ -1,0 +1,13 @@
+name=input('Could you please tell your name?')
+t=int(input('how many times do you want to print your name?'))
+for i in range(1,t+1):
+    print(name)
+    
+Output:
+Could you please tell your name?sravanthi
+how many times do you want to print your name?5
+sravanthi
+sravanthi
+sravanthi
+sravanthi
+sravanthi
