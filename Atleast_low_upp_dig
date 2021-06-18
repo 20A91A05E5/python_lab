@@ -1,0 +1,26 @@
+n=input('enter string')
+for i in range (0,len(n)):
+    if n[i].isdigit():
+        print('Atleast One digit:True ')
+        break
+else:
+    print('False')
+
+for i in range (0,len(n)):
+    if n[i].islower():
+        print('Atleast One lower letter: True')
+        break
+else:
+    print('False')
+
+for i in range (0,len(n)):
+    if n[i].isupper():
+        print('Atleast One Upper letter :True')
+        break
+else:
+    print('False')
+Output:
+enter stringABC123abc
+Atleast One digit:True 
+Atleast One lower letter: True
+Atleast One Upper letter :True
