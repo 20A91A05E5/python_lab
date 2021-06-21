@@ -1,0 +1,19 @@
+s='python'
+res=s.endswith('n')
+print (res)   #True
+res=s.endswith('N')
+print (res)   #False
+res=s.endswith('n',0,6)
+print (res)   #True
+res=s.endswith('n',1,5)
+print (res)   #false
+
+s='python'
+res=s.startswith('p')
+print (res)       #True
+res=s.startswith('P')
+print (res)         #false
+res=s.startswith('p',0,4)
+print (res)         #True
+res=s.startswith('p',1,4)
+print (res)      #false
