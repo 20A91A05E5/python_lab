@@ -1,0 +1,11 @@
+number_list=[400,678,2,-1,1438909]
+print(number_list) #prints the list
+print(len(number_list)) #prints the size of list
+print(max(number_list)) #prints the max value of list
+print(min(number_list)) #prints the min value of list
+'''
+[400, 678, 2, -1, 1438909]
+5
+1438909
+-1
+'''
