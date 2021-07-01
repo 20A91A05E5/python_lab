@@ -1,0 +1,35 @@
+#STARTSWITH("substring",[startindex,[endindex]) 
+s='sravanthi'
+res=s.startswith("s")   #Returns true if startvalue is equal to substring
+print(res)
+res=s.startswith("p")       
+print(res)
+res=s.startswith("s",0,5)   #Range is from 0 to 4
+print(res)
+res=s.startswith("a",4)     #Range is given as starting index
+print(res)
+
+'''
+True
+False
+True
+True
+'''
+
+
+#ENDSWITH("substring",[startindex],[endindex])
+s='sravanthi'
+res=s.endswith("i")     #Returns true if endvalue is equal to substring
+print(res)
+
+res=s.endswith("i",1,6)     #Range is from 1 to 6
+print(res)
+
+res=s.endswith("p")     
+print(res)
+
+'''
+True
+False
+False
+'''
