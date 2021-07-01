@@ -1,0 +1,30 @@
+s="python programming"
+res=s.capitalize()              #objectname.capitalize() - 1
+print(res)
+
+res=s.upper()                   #objectname.upper() - 2
+print(res)
+
+res=s.lower()                   #objectname.lower() - 3
+print(res)
+
+res=s.title()                   #objectname.title() - 4
+print(res)
+
+a="pyThon PROGrammiNG"          #objectname.swapcase()- 5
+swap=a.swapcase()
+print(swap)
+
+s1="This is Sravanthi"          #objectname.split(" ") - 6 
+res=s1.split(" ")
+print(res)
+print(type(res))
+'''
+Python programming
+PYTHON PROGRAMMING
+python programming
+Python Programming
+PYtHON progRAMMIng
+['This', 'is', 'Sravanthi']
+<class 'list'>
+'''
