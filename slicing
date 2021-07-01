@@ -1,0 +1,22 @@
+#SLICING
+'''
+EXTRACTING THE CERTAIN CHARACTERS FROM THE GIVEN STRING
+SYNTAX: stringobject[start:end:stepcount]
+'''
+
+s="python"
+res=s[0:4]      #Returns the values from 0 to 4-1=3 elements 
+print(res)      #pyth
+print(s[0:5])
+print("s[0] is %s"  %s[0])
+print("s[0:4] is %s" %s[0:4])
+print("s[13] is %s" %s[13])
+
+'''
+pyth
+pytho
+s[0] is p
+s[0:4] is pyth
+
+IndexError: string index out of range
+'''
