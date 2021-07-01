@@ -1,0 +1,10 @@
+s1="This is Sravanthi"
+res=s1.split(" ")
+print(res) 
+res_join="-".join(res)      #seperator.join(res_split)     - 7
+print(res_join)
+
+'''
+['This', 'is', 'Sravanthi']
+This-is-Sravanthi
+'''
