@@ -1,0 +1,10 @@
+##atleast one character is lower then print true
+s='SRAVaNTHI'
+for i in range(0,len(s)):
+    if(s[i].islower()):
+       print('True')
+       break
+
+'''
+True
+'''
