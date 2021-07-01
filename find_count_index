@@ -1,0 +1,29 @@
+s="This is Sravanthi. This is Sravanthi"
+res=s.find("a")                         #it prints the first index of the string which we want to find
+print(res)     #objectname.find("substring")
+res=s.count("a",0,11)
+print(res)
+
+
+s="This is Sravanthi. This is Sravanthi"
+
+res=s.index("a")        # It returns the position of the sub string and returns that value
+print(res)
+res=s.find("a")         # if there is no substring in main string then index returns an error
+print(res)
+res=s.find("z")         # diff b/w find and index is find returns -1 if not present and index returns an error
+print(res)
+res=s.index("z")
+print(res)
+
+'''
+10
+1
+10
+10
+-1
+Traceback (most recent call last):
+  File "C:/Users/MY/AppData/Local/Programs/Python/Python38-32/github.py", line 16, in <module>
+    res=s.index("z")
+ValueError: substring not found
+'''
