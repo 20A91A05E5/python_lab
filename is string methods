@@ -1,0 +1,22 @@
+s='sravanthi'
+res=s.isupper()
+print(res)
+
+res=s.islower()         #CHECKS WHETHER IT IS LOWER OR UPPER AND IT RETURNS TRUE IF IT IS IN LOWER CASE
+print(res)
+
+res=s.isalpha()         #only alphabets
+print(res)
+
+res=s.isalnum()         #Both alphabets and numbers
+print(res)
+
+res=s.isdigit()         #only NUMBERS
+print(res)
+'''
+False
+True
+True
+True
+False
+'''
