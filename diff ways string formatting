@@ -1,0 +1,17 @@
+#printing in diff ways
+firstname=input("enter your name")
+lastname=input("enter last name")
+#String formatting using %s operator
+print("Hello %s %s! you just delved into python"%(firstname,lastname))
+#string formatting using +(concatenation)
+print("Hello " +firstname,lastname+ " !You just delved into python")
+#string formatting using .format()
+print("Hello {} {} !You just delved into python".format(firstname,lastname))
+
+'''
+enter your namesravanthi
+enter last namechinta
+Hello sravanthi chinta! you just delved into python
+Hello sravanthi chinta !You just delved into python
+Hello sravanthi chinta !You just delved into python
+'''
