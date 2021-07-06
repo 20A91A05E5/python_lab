@@ -1,0 +1,30 @@
+branch_tuple=("CSE","IT","MECH")
+for i in branch_tuple:
+print(i)
+'''
+CSE
+IT
+MECH
+'''
+#2nd-method By index
+branch_tuple=("CSE","IT","MECH")
+for i in range(len(branch_tuple)):
+print(branch_tuple[i])
+'''
+CSE
+IT
+MECH
+'''
+#Index and count
+tuple1=(10,23,45,457,45,67,89)
+res=tuple1.count(45)
+print (res)
+pos=tuple1.index(457)
+print(pos)
+pos=tuple1.index(456)
+print(pos)
+'''
+2
+3
+ValueError: tuple.index(x): x not in tuple
+'''
