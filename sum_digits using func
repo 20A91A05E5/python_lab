@@ -1,0 +1,12 @@
+def sum_digits(num):
+    sum1=0
+    for i in num:
+        sum1=sum1+int(i)
+    return sum1
+
+num=input('enter a number')
+print(sum_digits(num))
+
+Output:
+enter a number123
+6
