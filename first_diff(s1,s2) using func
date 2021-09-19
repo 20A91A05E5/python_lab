@@ -1,0 +1,19 @@
+def first_diff(s1,s2):
+    ms=min(len(s1),len(s2))
+    for i in range(ms):
+        if s1[i]!=s2[i]:
+            return i
+    return -1
+        
+string1=input('enter 1st string')
+string2=input('enter 2nd string')
+print(first_diff(string1,string2))
+
+output:
+enter 1st stringpython
+enter 2nd stringpython
+-1
+
+enter 1st stringpython
+enter 2nd stringprogram
+1
