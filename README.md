@@ -1,3 +1,3 @@
 # python_lab
-# sravanthi kotha
+# sravanthi chinta
 # aditya engineering college topper
